@@ -6,4 +6,5 @@ def es_par(n):
     return True
   else:
     return False
-print(list(filter( es_par, lista)))   
+print(list(filter( es_par, lista)))
+print(list(filter(lambda n:n%2==0, lista)))
